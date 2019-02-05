@@ -1,0 +1,59 @@
+.wrapper {
+    display-model: grid;
+    grid-template: repeat(2, 50px) / repeat(3, 1fr);
+    grid-template-rows: 40px 100px 40px;
+    background-image;
+
+}
+
+
+.header {
+
+    grid-colum: span 12
+}
+
+.header {
+    background-image: url("./images/embouchure.jpg");
+}
+
+.menu {
+    background-image: url("HTTPS://www.nameimage.com");
+    background-size: cover;
+    grid-column: span3;
+    font-size: 30px;
+    font-style: italic;
+    font-family: "sans-serif";
+    font-weight: bold;
+    display: grid;
+    height: 75%;
+}
+}
+
+.logo-box {
+
+
+
+}
+
+.content {
+    height: 75%;
+    grid-colum span 8;
+    background-color: rgba(162, 138, 80, 0.6);
+    padding: 20px;
+}
+
+.footer {
+    grid-colum: span 12;
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        grid-column: span 6;
+    }
+
+    .menu {
+        grid-row: 1;
+        grid-column: span 6;
+        background-color: rgba(247, 210, 167, 0.75);
+    }
+}
